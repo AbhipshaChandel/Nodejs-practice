@@ -1,5 +1,5 @@
 // Require ------->
-//in this the type in package.json shold be commonjs ("type":"commonjs")
+//in this the type in package.json should be commonjs ("type":"commonjs")
 
 // module.exports={
 //   a:1,
