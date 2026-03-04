@@ -1,0 +1,10 @@
+Expressjs
+
+How to download Expressjs=write: npm i express in the terminal
+
+How to start nodemon :
+       1.write npm i --global nodemon
+       2.write nodemon Lecture3/main.js
+
+How to open in browser:
+       write in browser URL:localhost:5500
