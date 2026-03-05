@@ -12,7 +12,7 @@ app.use(express.static('public'))//jo bhe folder ka naam hoga vo he likhna hai b
 
 //this is not good way so thats why we use Express
 
-app.get('/',(req,res)=>{
+app.get('/',(req,res)=>{//int the url we write localhost:5500/
     res.send('Hello World5!')
 })
 
