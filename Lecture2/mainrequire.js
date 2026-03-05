@@ -13,7 +13,7 @@ const fs=require("fs")
 
 
 
-//this function writefilesync is synchonous in nature which meand only after one line is executed fully then it moves to next linE which is not good as javascript is asynchonous in nature
+//this function writefilesync is synchonous in nature which means only after one line is executed fully then it moves to next linE which is not good as javascript is asynchonous in nature
 
 //console.log("Starting")
 //fs.writeFileSync("abhipsha.txt","Abhipsha is a good girl")
@@ -34,8 +34,8 @@ const fs=require("fs")
 
 // how to append in an existing file
 
-// fs.appendFile("abhipsha.txt"," u know",(e,d)=>{
-//     console.log(d)
+// fs.appendFile("abhipsha.txt"," u know",(error,data)=>{
+//     console.log(data)
 // })
 
 
@@ -47,7 +47,7 @@ const fs=require("fs")
 // fs.writeFile("abhipsha.txt","Abhipsha is a good girl",()=>{
 //     console.log("Done")
 //     fs.readFile("abhipsha.txt",(error,data)=>{
-//         console.log(error,data)//if we write only data then we can  not able to read what is written in file so we should use data.toString
+//         console.log(error,data)//if we write only data then we can  not able to read what is written in file because it print something in code language so we should use data.toString
 //     })
 // })
 // console.log("ending")
@@ -63,4 +63,4 @@ const fs=require("fs")
 // console.log("ending")
 
 
-// if we keep on calling then it create a callback hell so to avoid this we use promises
+// if we keep on calling then it create a callback hell so to avoid this we use promises: Now go to mainpromise.js 
