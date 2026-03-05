@@ -7,11 +7,29 @@
 </head>
 <body>
     <script>
+        //POST REQUEST
+
         async function testpost(params) {
             let a=await fetch("/",{method:"POST"})
             let b=await a.text()
             console.log(b)
         }
+
+        testpost()
+
+
+
+
+
+        //PUT REQUEST
+
+        async function testpost(params) {
+            let a=await fetch("/",{method:"PUT"})
+            let b=await a.text()
+            console.log(b)
+        }
+
+        testpost()
     </script>
 </body>
 </html>
